@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+    <style>
+        body{
+            background-color: rgb(107, 107, 245);
+        }
+        table {
+            border-style: solid;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border-style: solid;
+
+        }
+    </style>
+</head>
+
+<body >
+
+    <fieldset>
+        <center><h1>STUDENT REGISTRATION FORM</h1></center>
+    <form style=" text-align: justify;">
+        <label for="fn">FIRST NAME:</label>
+        <input type="text" id="fn" required> (max 30 characters a-z and A-Z) <br><br>
+
+        <label for="ln">LAST NAME:</label>
+        <input type="text" id="ln"  required> (max 30 characters a-z and A-Z) <br><br>
+
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="datetime-local" id="dob"  required><br><br>
+
+        <label for="mail">EMAIL ID:</label>
+        <input type="email" id="mail"  required><br><br>
+
+        <label for="m">MOBILE NUMBER:</label>
+        <input type="tel" id="m"  required> (10 Digit Number) <br><br>
+
+        <label>GENDER:</label>
+        <input type="radio" id="ra1" name="Gender">
+        <label for="ra1">Male</label>
+        <input type="radio" id="ra2" name="Gender">
+        <label for="ra2">Female</label><br><br>
+
+        <label>ADDRESS:</label><br>
+        <textarea cols="20" rows="4"></textarea><br><br>
+
+        <label for="c">CITY:</label>
+        <input type="text" id="c"  required> (max 30 characters a-z and A-Z) <br><br>
+
+        <label for="p">PIN CODE:</label>
+        <input type="text" id="p" required> (6 Digit number)<br><br>
+
+        <label for="s">STATE:</label>
+        <input type="text" id="s"  required> (max 30 characters a-z and A-Z) <br><br>
+
+        <label for="co">COUNTRY:</label>
+        <input type="text" id="co"  required><br><br>
+
+        <label>HOBBIES:</label>&nbsp;&nbsp;
+        <label for="d">Drawing</label>
+        <input type="checkbox" id="d">
+        <label for="si">Singing</label>
+        <input type="checkbox" id="si">
+        <label for="da">Dancing</label>
+        <input type="checkbox" id="da">
+        <label for="sk">Sketching</label>
+        <input type="checkbox" id="sk"><br>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <label for="o">Others</label>
+        <input type="checkbox" id="o">
+        <input type="text"><br><br>
+
+        <label>Qaulification:</label>
+        <table>
+            <tr>
+                <thead>
+                    <th>SI.NO.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of passing</th>
+                </thead>
+            </tr>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Class x</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+
+        </table><br>
+
+        <label>COURSES APPLIED FOR:</label>
+        
+        
+
+        <input type="radio" id="rad1" name="course">
+        <label for="rad1">BCA</label>
+       
+        <input type="radio" id="rad2" name="course">
+        <label for="rad2">B.com</label>
+       
+        <input type="radio" id="rad3" name="course">
+        <label for="rad3">B.sc</label>
+      
+       
+        <input type="radio" id="rad4" name="course">
+        <label for="rad4">B.A</label>
+     
+        <center>
+            <input type="submit" value="submit">
+           <input type="reset" value="clear">
+        </center>
+
+    </form>
+</fieldset>
+</body>
+
+</html>
